@@ -49,13 +49,16 @@ switch(nome){
 				obj_player.x = 1728;
 				obj_player.y = 1120;
 				if(object_exists(obj_enemy))
-					instance_create_layer(1728,900,"Instances",obj_enemy)
+					instance_create_layer(1728,600,"Instances",obj_enemy)
 			break;
 			case 2:
 				obj_camera.camera = 0;
 				obj_camera.x = obj_enemy.x;
 				obj_camera.y = obj_enemy.y;
 				scr_zoom(view_get_camera(0),546,291,0.2);
+			break;
+			case 8:
+				scr_zoom(view_get_camera(0),1366,728,0.2);
 			break;
 		}
 	break;
