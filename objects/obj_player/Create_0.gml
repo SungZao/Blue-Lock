@@ -1,5 +1,6 @@
 hveloc = 0;
 vveloc = 0;
+depth = -1;
 
 global.transicao = 0;
 

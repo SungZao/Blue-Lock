@@ -88,7 +88,7 @@ function scr_funcoes(_1,_2,_3,_4,_5,_6,_7,_8,_9){
 		vveloc = lengthdir_y(veloc*2,dash_dir);
 		x += hveloc;
 		y += vveloc;
-		var _inst = instance_create_layer(x,y,layer,obj_dash);
+		var _inst = instance_create_layer(x,y,"Instances",obj_dash);
 		_inst.sprite_index = sprite_index;
 	break;
 }
