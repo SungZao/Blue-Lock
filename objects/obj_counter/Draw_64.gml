@@ -1,0 +1,1 @@
+draw_text_ext(camera_get_view_width(obj_camera.cam)/2,camera_get_view_height(obj_camera.cam)/2,counter,0,100000);

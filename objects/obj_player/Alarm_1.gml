@@ -1,0 +1,2 @@
+/// @description Dashing
+estado = "andando"
