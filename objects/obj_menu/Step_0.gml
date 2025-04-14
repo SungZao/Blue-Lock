@@ -10,3 +10,11 @@ if(keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down)){
 		index = 0;
 	}
 }
+
+switch(escolha){
+	case "Habilidades":
+		xspr = lerp(xspr,700,0.1);
+		opcoes = ["Chute Poderoso","Gozadao","Troca-Troca","Bosta Preta", "Bosta Branca", "Puxa Penas"];
+		op_max = array_length(opcoes);
+	break;
+}

@@ -10,10 +10,20 @@ switch (room){
 	break;
 	
 	case rm_sala:
-	_x1 = 100;
-	_y1 = 200;
-	spr = draw_sprite_ext(spr_andando_tras, image_index, 900, 400, 18, 18, 0, c_white, 1)
-
+		switch(escolha){
+			case "Menu":
+				_x1 = 100;
+				_y1 = 200;
+				xspr = 900;
+				spr = draw_sprite_ext(spr_andando_tras, image_index, xspr, 400, 18, 18, 0, c_white, 1)
+			break;
+			
+			case "Habilidades":
+				_y1 = 100;
+				draw_text_transformed(20, 20,"Habilidades", 2, 2, 0);
+				spr = draw_sprite_ext(spr_andando_tras, image_index, xspr, 400, 18, 18, 0, c_white, 1)
+			break;
+		}
 	break
 }
 
@@ -23,7 +33,16 @@ for (var i = 0; i < op_max; i++){
 	draw_set_valign(fa_middle);
 	
 	if (index = i){
-		draw_set_color(c_aqua);
+		switch(escolha){
+			case "Menu":
+				draw_set_color(c_aqua);
+			break;
+			case "Habilidades":
+				if(index != op_max)
+					draw_set_color(c_aqua);
+			break;
+		}
+		
 	}else{
 		draw_set_color(c_white);
 	}
