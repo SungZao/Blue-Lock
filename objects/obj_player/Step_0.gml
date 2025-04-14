@@ -4,11 +4,20 @@ if(global.transicao == 0){
 	hveloc = (keyboard_check(ord("D")) - keyboard_check(ord("A")))*veloc;
 	vveloc = (keyboard_check(ord("S")) - keyboard_check(ord("W")))*veloc;
 
+if (place_meeting(x + hveloc, y, colisorese)){
+	while (!place_meeting(x + sign(hveloc), y, colisorese)){
+		x += sign(hveloc);
+	}
+	hveloc = 0;
+}
 	x += hveloc;
+if (place_meeting(x, y + vveloc, colisorese)){
+	while (!place_meeting(x, y + sign(vveloc), colisorese)){
+		y += sign(vveloc);
+	}
+	vveloc = 0;
+}
 	y += vveloc;
-
-
-
 
 	dir = floor((point_direction(x,y,mouse_x,mouse_y) + 45)/90);
 
@@ -57,4 +66,3 @@ if(global.transicao == 0){
 
 
 }
-

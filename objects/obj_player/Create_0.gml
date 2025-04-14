@@ -19,3 +19,5 @@ podepegar = true;
 
 dash_dir = -1;
 
+colisorese = [obj_enemy, obj_wall]
+

@@ -35,6 +35,9 @@
     "name":"spr_enemy_parado_tras",
     "path":"sprites/spr_enemy_parado_tras/spr_enemy_parado_tras.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_enemy_parado_tras",
+    "path":"sprites/spr_enemy_parado_tras/spr_enemy_parado_tras.yy",
+  },
   "visible":true,
 }
