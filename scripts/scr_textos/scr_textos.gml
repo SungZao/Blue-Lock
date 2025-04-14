@@ -21,6 +21,11 @@ function scr_textos(){
 			texto [7] = "Porque pode realmente ser...";
 			texto [8] = "Game Start!";
 		break;
+		case "terceiro texto":
+			texto[0] = "Parábens, você passou pelo teste inicial";
+			texto[1] = "Aproveite sua Estadia";
+			texto[2] = "Nos vemos Logo...";
+		break;
 	}
 
 }
