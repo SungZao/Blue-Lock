@@ -18,7 +18,6 @@ switch (room){
 }
 
 
-instance_create_layer(x,y,layer,obj_animacoes,{alpha: 1})
 for (var i = 0; i < op_max; i++){
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
