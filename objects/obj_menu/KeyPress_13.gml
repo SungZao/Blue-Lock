@@ -5,7 +5,8 @@ switch (room){
 		}
 
 		if (index == 0){
-			room_goto(rm_tutorial);
+			var _room_alvo = rm_tutorial;
+			scr_fade(_room_alvo, 60, c_black);
 		}
 	break;
 	
@@ -20,7 +21,8 @@ switch (room){
 							
 		if (index == 2){
 			draw_set_color(c_white);
-			room_goto(rm_partida);
+			var _room_alvo2 = rm_partida;
+			scr_fade(_room_alvo2, 60, c_black);
 		}
 	break;
 }
