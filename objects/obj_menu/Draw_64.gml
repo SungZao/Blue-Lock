@@ -1,14 +1,24 @@
 draw_set_font(m5x7);
 
-var _dist = 150;
+var _dist = 100;
 var _gui_larg = display_get_gui_width();
 var _gui_alt = display_get_gui_height();
-var _x1 = _gui_larg / 2;
-var _y1 = _gui_alt / 2;
+switch (room){
+	case rm_menu:
+	 _x1 = _gui_larg / 2;
+	 _y1 = _gui_alt / 2;
+	break;
+	
+	case rm_sala:
+	_x1 = 100;
+	_y1 = 200;
+	draw_sprite_ext(spr_andando_tras, 1, 900, 400, 20, 20, 0, c_white, 1)
+	break
+}
 
 for (var i = 0; i < op_max; i++){
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_left);
 	
 	if (index = i){
 		draw_set_color(c_aqua);
