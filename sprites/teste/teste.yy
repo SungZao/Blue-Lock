@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"porra_nenhuma",
+    "path":"folders/Sprites/porra_nenhuma.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

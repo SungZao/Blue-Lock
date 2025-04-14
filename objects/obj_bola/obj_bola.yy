@@ -9,8 +9,8 @@
   "name":"obj_bola",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"coisas_com_sprite",
+    "path":"folders/Objects/coisas_com_sprite.yy",
   },
   "parentObjectId":null,
   "persistent":false,
