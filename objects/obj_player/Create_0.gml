@@ -11,7 +11,6 @@ estado = "andando";
 dir = "";
 podedash = true;
 
-habilidades = "Chute Poderoso"
 
 podepegar = true;
 

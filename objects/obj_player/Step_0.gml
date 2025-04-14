@@ -41,12 +41,15 @@ if(global.transicao == 0){
 		scr_chute(forc_chute);
 		
 	if(keyboard_check_pressed(ord("Q"))){
-		switch(habilidades){
+		switch(global.habilidades){
 			case "Chute Poderoso":
 				scr_chute(forc_chute*2)
 			break;
 		}
 	}
+
+
+
 
 	if(keyboard_check_pressed(vk_space)){
 		if(podedash){
@@ -57,7 +60,7 @@ if(global.transicao == 0){
 		}
 	}
 
-	scr_habilidades(habilidades);
+	
 	#endregion
 }
 
