@@ -9,6 +9,8 @@ gols = -1;
 estado = "andando";
 
 dir = "";
+podedash = true;
+
 
 veloc = 1;
 max_estamina = 50;

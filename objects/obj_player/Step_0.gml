@@ -47,9 +47,12 @@ if(global.transicao == 0){
 	}
 
 	if(keyboard_check_pressed(vk_space)){
-		alarm[1] = 16;
-	
-		estado = "dashing";
+		if(podedash){
+			alarm[1] = 16;
+			estado = "dashing";
+			alarm[2] = 120;
+			podedash = false;
+		}
 	}
 
 
