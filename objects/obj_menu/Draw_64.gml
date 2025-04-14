@@ -12,13 +12,16 @@ switch (room){
 	case rm_sala:
 	_x1 = 100;
 	_y1 = 200;
-	draw_sprite_ext(spr_andando_tras, 1, 900, 400, 20, 20, 0, c_white, 1)
+	spr = draw_sprite_ext(spr_andando_tras, image_index, 900, 400, 18, 18, 0, c_white, 1)
+
 	break
 }
 
+
+instance_create_layer(x,y,layer,obj_animacoes,{alpha: 1})
 for (var i = 0; i < op_max; i++){
 	draw_set_halign(fa_left);
-	draw_set_valign(fa_left);
+	draw_set_valign(fa_middle);
 	
 	if (index = i){
 		draw_set_color(c_aqua);

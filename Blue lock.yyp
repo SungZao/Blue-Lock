@@ -52,7 +52,6 @@
     {"id":{"name":"obj_gol_txt","path":"objects/obj_gol_txt/obj_gol_txt.yy",},},
     {"id":{"name":"obj_gol","path":"objects/obj_gol/obj_gol.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
-    {"id":{"name":"obj_player_se_fodendo","path":"objects/obj_player_se_fodendo/obj_player_se_fodendo.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

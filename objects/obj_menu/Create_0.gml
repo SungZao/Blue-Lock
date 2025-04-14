@@ -8,3 +8,5 @@ op_max = array_length(opcoes);
 
 _x1 = 0;
 _y1 = 0;
+spr = 0;
+
