@@ -11,11 +11,18 @@ estado = "andando";
 dir = "";
 podedash = true;
 
+habilidades = "Chute Poderoso"
 
-veloc = 1;
-max_estamina = 50;
-estamina = max_estamina;
 podepegar = true;
 
 dash_dir = -1;
+
+
+//Atributos
+veloc = 1;
+max_estamina = 50;
+estamina = max_estamina;
+
+forc_chute = 5;
+
 

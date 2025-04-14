@@ -150,3 +150,13 @@ function scr_bola(){
 	}
 }
 
+function scr_chute(_forca){
+	if(global.posse == 1){
+		podepegar = false
+		alarm[0] = 120
+		obj_bola.direction = point_direction(x,y,mouse_x,mouse_y);
+		obj_bola.speed = _forca;
+		global.posse = 0;
+	}
+}
+

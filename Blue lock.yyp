@@ -62,6 +62,7 @@
     {"id":{"name":"scr_camera","path":"scripts/scr_camera/scr_camera.yy",},},
     {"id":{"name":"scr_fade","path":"scripts/scr_fade/scr_fade.yy",},},
     {"id":{"name":"scr_funcoes","path":"scripts/scr_funcoes/scr_funcoes.yy",},},
+    {"id":{"name":"scr_habilidades","path":"scripts/scr_habilidades/scr_habilidades.yy",},},
     {"id":{"name":"scr_textos","path":"scripts/scr_textos/scr_textos.yy",},},
     {"id":{"name":"grass","path":"sprites/grass/grass.yy",},},
     {"id":{"name":"spr_andando_direita","path":"sprites/spr_andando_direita/spr_andando_direita.yy",},},
