@@ -7,9 +7,13 @@ if(mouse_check_button_pressed(mb_left)){
 	if(pagina < array_length(texto) - 1)
 		pagina ++;
 	else{
-		global.transicao = 0;
-		instance_create_layer(x,y,layer,obj_counter);
-		instance_destroy();
+		if(nome == "terceiro texto")
+			room_goto(rm_sala)
+		else{
+			global.transicao = 0;
+			instance_create_layer(x,y,layer,obj_counter);
+			instance_destroy();
+		}
 	}
 }
 
