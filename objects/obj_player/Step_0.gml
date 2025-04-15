@@ -4,8 +4,22 @@ if(global.transicao == 0){
 	hveloc = (keyboard_check(ord("D")) - keyboard_check(ord("A")))*veloc;
 	vveloc = (keyboard_check(ord("S")) - keyboard_check(ord("W")))*veloc;
 
-	x += hveloc;
-	y += vveloc;
+
+if (place_meeting(x + hveloc, y, obj_wall)){
+	while (!place_meeting(x + sign(hveloc), y, obj_wall)){
+		x += sign(hveloc);
+	}
+	hveloc = 0;
+}
+x += hveloc;
+
+if (place_meeting(x, y + vveloc, obj_wall)){
+	while (!place_meeting(x, y + sign(vveloc), obj_wall)){
+		y += sign(vveloc);
+	}
+	y = 0;
+}
+y += vveloc;
 	#endregion
 
 
