@@ -91,6 +91,7 @@
     {"id":{"name":"spr_enemy_parado_frente","path":"sprites/spr_enemy_parado_frente/spr_enemy_parado_frente.yy",},},
     {"id":{"name":"spr_enemy_parado_tras","path":"sprites/spr_enemy_parado_tras/spr_enemy_parado_tras.yy",},},
     {"id":{"name":"spr_est","path":"sprites/spr_est/spr_est.yy",},},
+    {"id":{"name":"spr_found_menu","path":"sprites/spr_found_menu/spr_found_menu.yy",},},
     {"id":{"name":"spr_hud_estamina","path":"sprites/spr_hud_estamina/spr_hud_estamina.yy",},},
     {"id":{"name":"spr_parado_direita","path":"sprites/spr_parado_direita/spr_parado_direita.yy",},},
     {"id":{"name":"spr_parado_frente","path":"sprites/spr_parado_frente/spr_parado_frente.yy",},},
