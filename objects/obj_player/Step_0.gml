@@ -51,13 +51,17 @@ y += vveloc;
 		}
 	}
 
-	if(mouse_check_button_pressed(mb_left))
+	if(mouse_check_button_pressed(mb_left)){
+		audio_play_sound(snd_chute,1,false);
 		scr_chute(forc_chute);
+	}
 		
 	if(keyboard_check_pressed(ord("Q"))){
 		switch(global.habilidades){
 			case "Chute Poderoso":
-				obj_bola.sprite_index = spr_bola_ChuteP
+				instance_create_layer(x,y,"Instances",obj_particulas,{part: ps_ChutePoderoso})
+				scr_shake(30);
+				audio_play_sound(snd_ChutePoderoso,2,false,10);
 				scr_chute(forc_chute*2)
 			break;
 		}

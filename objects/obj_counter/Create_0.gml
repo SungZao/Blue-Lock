@@ -8,7 +8,9 @@ estado = "andando";
 estamina = max_estamina;
 
 
+
 scr_zoom(view_get_camera(0),1366,728,0.2);
 obj_camera.x = x;
 obj_camera.y = y
 }
+

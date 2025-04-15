@@ -156,7 +156,6 @@ function scr_chute(_forca){
 		alarm[0] = 120
 		obj_bola.direction = point_direction(x,y,mouse_x,mouse_y);
 		obj_bola.image_angle = obj_bola.direction;
-		
 		obj_bola.speed = _forca;
 		global.posse = 0;
 		

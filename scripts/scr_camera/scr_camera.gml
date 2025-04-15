@@ -3,3 +3,9 @@
 function scr_zoom(_cam,_w,_h,_str){
 	camera_set_view_size(_cam,lerp(camera_get_view_width(_cam),_w,_str),lerp(camera_get_view_height(_cam),_h,_str));
 }
+function scr_shake(_alarm){
+	with(obj_camera){
+		shake = true;
+		alarm[0] = _alarm;
+	}
+}
