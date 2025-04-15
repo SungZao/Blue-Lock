@@ -88,7 +88,6 @@
     {"id":{"name":"spr_parado_frente","path":"sprites/spr_parado_frente/spr_parado_frente.yy",},},
     {"id":{"name":"spr_parado_tras","path":"sprites/spr_parado_tras/spr_parado_tras.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
-    {"id":{"name":"spr_sla","path":"sprites/spr_sla/spr_sla.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"teste","path":"sprites/teste/teste.yy",},},
     {"id":{"name":"ts_grass","path":"tilesets/ts_grass/ts_grass.yy",},},
