@@ -28,6 +28,7 @@
     {"$GMFolder":"","%Name":"Enemy1","folderPath":"folders/Sprites/Enemy1.yy","name":"Enemy1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"porra_nenhuma","folderPath":"folders/Sprites/porra_nenhuma.yy","name":"porra_nenhuma","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Bola","folderPath":"folders/Sprites/porra_nenhuma/Bola.yy","name":"Bola","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
