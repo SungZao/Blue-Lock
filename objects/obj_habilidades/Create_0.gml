@@ -1,0 +1,1 @@
+global.habilidades = "Chute Poderoso"; 

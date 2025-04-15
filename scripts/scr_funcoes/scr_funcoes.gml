@@ -157,6 +157,7 @@ function scr_chute(_forca){
 		obj_bola.direction = point_direction(x,y,mouse_x,mouse_y);
 		obj_bola.speed = _forca;
 		global.posse = 0;
+		
 	}
 }
 
