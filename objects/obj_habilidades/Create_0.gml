@@ -1,1 +1,1 @@
-global.habilidades = "Chute Poderoso"; 
+global.habilidades = "Chute Poderoso";
