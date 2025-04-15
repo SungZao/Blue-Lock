@@ -73,6 +73,7 @@
     {"id":{"name":"spr_andando_direita","path":"sprites/spr_andando_direita/spr_andando_direita.yy",},},
     {"id":{"name":"spr_andando_frente","path":"sprites/spr_andando_frente/spr_andando_frente.yy",},},
     {"id":{"name":"spr_andando_tras","path":"sprites/spr_andando_tras/spr_andando_tras.yy",},},
+    {"id":{"name":"spr_bola_ChuteP","path":"sprites/spr_bola_ChuteP/spr_bola_ChuteP.yy",},},
     {"id":{"name":"spr_bola","path":"sprites/spr_bola/spr_bola.yy",},},
     {"id":{"name":"spr_correndo_direita","path":"sprites/spr_correndo_direita/spr_correndo_direita.yy",},},
     {"id":{"name":"spr_correndo_frente","path":"sprites/spr_correndo_frente/spr_correndo_frente.yy",},},

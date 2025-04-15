@@ -57,6 +57,7 @@ y += vveloc;
 	if(keyboard_check_pressed(ord("Q"))){
 		switch(global.habilidades){
 			case "Chute Poderoso":
+				obj_bola.sprite_index = spr_bola_ChuteP
 				scr_chute(forc_chute*2)
 			break;
 		}
