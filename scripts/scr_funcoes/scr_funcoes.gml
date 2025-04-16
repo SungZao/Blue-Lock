@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_funcoes(_1,_2,_3,_4,_5,_6,_7,_8,_9){
+function scr_funcoes(_1,_2,_3){
 	
 	switch(estado){
 	case "parado":
@@ -10,52 +10,44 @@ function scr_funcoes(_1,_2,_3,_4,_5,_6,_7,_8,_9){
 			default:
 	
 				image_xscale = 1;
-				sprite_index = _2;
+				sprite_index = _1;
 			break;
 			case 1:
 				sprite_index = _1;
-				image_xscale = 1;
-			break;
-	
-			case 2:
-				sprite_index = _2;
 				image_xscale = -1;
 			break;
 	
-			case 3:
-				sprite_index = _3;
+			case 2:
+				sprite_index = _1;
 				image_xscale = 1;
 			break;
 		}
 	break;
 	case "andando":
 		veloc = 1;	
+		image_speed = 0.7;
 		if(estamina < max_estamina)
 			estamina += 0.2
 		switch(dir){
 			default:
 	
 				image_xscale = 1;
-				sprite_index = _5;
+				sprite_index = _2;
 			break;
 			case 1:
-				sprite_index = _4;
-				image_xscale = 1;
-			break;
-	
-			case 2:
-				sprite_index = _5;
+				sprite_index = _2;
 				image_xscale = -1;
 			break;
 	
-			case 3:
-				sprite_index = _6;
+			case 2:
+				sprite_index = _2;
 				image_xscale = 1;
 			break;
 		}
 	break;
 	case "correndo":
 		veloc = 3;	
+		image_speed = 1;
 		if(estamina <= 0)
 			estado = "andando";
 		estamina -= 0.2
@@ -63,22 +55,18 @@ function scr_funcoes(_1,_2,_3,_4,_5,_6,_7,_8,_9){
 			default:
 	
 				image_xscale = 1;
-				sprite_index = _8;
+				sprite_index = _2;
 			break;
 			case 1:
-				sprite_index = _7;
-				image_xscale = 1;
-			break;
-	
-			case 2:
-				sprite_index = _8;
+				sprite_index = _2;
 				image_xscale = -1;
 			break;
 	
-			case 3:
-				sprite_index = _9;
+			case 2:
+				sprite_index = _2;
 				image_xscale = 1;
 			break;
+
 		}
 	break;
 	case "dashing":
@@ -112,11 +100,6 @@ function scr_bola(){
 						obj_bola.x = x-20
 						obj_bola.y = y
 					break;
-	
-					case 3:
-						obj_bola.x = x-5
-						obj_bola.y = y+15
-					break;
 				}
 			}
 		break;
@@ -136,11 +119,6 @@ function scr_bola(){
 					case 2:
 						obj_bola.x = x-20
 						obj_bola.y = y
-					break;
-	
-					case 3:
-						obj_bola.x = x-5
-						obj_bola.y = y+15
 					break;
 				}
 			}

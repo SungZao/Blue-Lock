@@ -24,7 +24,7 @@ y += vveloc;
 
 
 	#region Mudança de Dir
-	dir = floor((point_direction(x,y,mouse_x,mouse_y) + 45)/90);
+	dir = floor((point_direction(x,y,mouse_x,mouse_y)+90)/180);
 	#endregion
 
 	#region Mudança de Estado e Sprites
@@ -36,7 +36,7 @@ y += vveloc;
 		}
 	}
 
-	scr_funcoes(spr_parado_frente,spr_parado_direita,spr_parado_tras,spr_andando_frente,spr_andando_direita,spr_andando_tras,spr_correndo_frente,spr_correndo_direita,spr_correndo_tras);
+	scr_funcoes(spr_parado,spr_correndo,spr_chutando);
 	#endregion
 
 	#region Habilidades

@@ -37,12 +37,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parado_tras",
-    "path":"sprites/spr_parado_tras/spr_parado_tras.yy",
+    "name":"spr_parado",
+    "path":"sprites/spr_parado/spr_parado.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_parado_tras",
-    "path":"sprites/spr_parado_tras/spr_parado_tras.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

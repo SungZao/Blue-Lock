@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"ts_marcacao",
-  "out_columns":18,
+  "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"teste",
-    "path":"sprites/teste/teste.yy",
+    "name":"tilemap_marc",
+    "path":"sprites/tilemap_marc/tilemap_marc.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":324,
+  "tile_count":24,
 }

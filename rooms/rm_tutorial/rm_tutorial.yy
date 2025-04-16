@@ -165,7 +165,7 @@
           -44,-2147483648,1,19,-31,25,-9,23,1,21,-44,-2147483648,1,19,-31,25,-9,23,1,21,-44,-2147483648,1,19,-31,
           25,-9,23,1,21,-44,-2147483648,1,19,-5,23,-30,20,1,40,-4,23,1,21,-44,-2147483648,1,37,-40,38,1,39,-44,
           -2147483648,-43,40,-43,-2147483648,-43,40,-43,-2147483648,-43,40,-43,-2147483648,-43,40,-8,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_marcacao","path":"tilesets/ts_marcacao/ts_marcacao.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"grass","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"grass","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":171,"SerialiseWidth":171,"TileSerialiseData":[
           214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,
           215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,
@@ -1337,7 +1337,7 @@
           212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,
           213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,214,215,210,211,212,213,
           214,215,210,211,212,213,214,215,210,211,212,213,214,215,211,212,
-        ],},"tilesetId":{"name":"ts_grass","path":"tilesets/ts_grass/ts_grass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278222646,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_tutorial",

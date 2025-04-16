@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_andando_tras",
-    "path":"sprites/spr_andando_tras/spr_andando_tras.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
