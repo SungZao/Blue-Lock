@@ -12,16 +12,17 @@ switch (room){
 	case rm_sala:
 		switch(escolha){
 			case "Menu":
+			image_speed = 0.02
 				_x1 = 100;
 				_y1 = 200;
-				xspr = 900;
-				spr = draw_sprite_ext(spr_andando_tras, image_index, xspr, 400, 18, 18, 0, c_white, 1)
+				spr = draw_sprite_ext(spr_parado, image_index, xspr, 400, 18, 18, 0, c_white, 1)
 			break;
 			
 			case "Habilidades":
+				image_speed = 0.05
 				_y1 = 100;
 				draw_text_transformed(20, 20,"Habilidades", 2, 2, 0);
-				spr = draw_sprite_ext(spr_andando_tras, image_index, xspr, 400, 18, 18, 0, c_white, 1)
+				spr = draw_sprite_ext(spr_correndo, image_index, xspr, 400, 18, 18, 0, c_white, 1)
 			break;
 		}
 	break
@@ -47,5 +48,5 @@ for (var i = 0; i < op_max; i++){
 		draw_set_color(c_white);
 	}
 	
-	draw_text_transformed(_x1, _y1 + (_dist * i), opcoes[i], 2, 2, 0);
+	draw_text_ext_transformed(_x1, _y1 + (_dist * i), opcoes[i], 2, 200,2 ,2,0);
 }

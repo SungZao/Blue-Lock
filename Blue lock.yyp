@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Blue lock",
   "resources":[
@@ -54,7 +54,6 @@
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_gol_txt","path":"objects/obj_gol_txt/obj_gol_txt.yy",},},
     {"id":{"name":"obj_gol","path":"objects/obj_gol/obj_gol.yy",},},
-    {"id":{"name":"obj_habilidades","path":"objects/obj_habilidades/obj_habilidades.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_particulas","path":"objects/obj_particulas/obj_particulas.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -105,10 +104,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_sala","path":"rooms/rm_sala/rm_sala.yy",},},
     {"roomId":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
-    {"roomId":{"name":"rm_sala","path":"rooms/rm_sala/rm_sala.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

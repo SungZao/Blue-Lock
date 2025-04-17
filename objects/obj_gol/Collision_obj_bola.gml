@@ -1,5 +1,5 @@
 if(instance_exists(obj_particulas)){
-	part_system_destroy(obj_particulas.part_sys)
+	part_particles_clear(obj_particulas.part_sys)
 	instance_destroy(obj_particulas);
 }
 

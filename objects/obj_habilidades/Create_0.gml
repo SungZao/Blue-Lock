@@ -1,1 +1,0 @@
-global.habilidades = "Chute Poderoso";

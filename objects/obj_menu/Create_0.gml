@@ -1,10 +1,10 @@
 switch(room){
 	case rm_menu:
-		opcoes = ["play", "sair"]
+		opcoes = ["Play", "Sair"]
 	break;
 	
 	case rm_sala:
-			opcoes = ["habilidades", "inventario", "play"]
+			opcoes = ["Habilidades", "Inventario", "Play"]
 	break;
 }
 
@@ -17,5 +17,13 @@ _y1 = 0;
 xspr = 0;
 
 spr = 0;
+global.habilidades = "Chute Poderoso";
+
+
+font_enable_effects(m5x7, true, {
+    outlineEnable: true,
+    outlineDistance: 1,
+    outlineColor: c_black,
+});
 
 

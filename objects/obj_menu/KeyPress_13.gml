@@ -14,24 +14,39 @@ switch (room){
 	break;
 	
 	case rm_sala:
-		switch(index){
-			case 0:
-				escolha = "Habilidades"
+		switch(escolha){
+			case "Menu":
+				switch(index){
+					case 0:
+						escolha = "Habilidades"
 				
+					break;
+			
+					case 1:
+			
+					break;
+			
+					case 2:
+						var _room_alvo2 = rm_partida;
+						draw_set_color(c_white);
+						scr_fade(_room_alvo2, 60, c_black);
+					break;
+				}
 			break;
 			
-			case 1:
+			case "Habilidades":
+				switch(index){
+					case 0:
+						global.habilidades = "Chute Poderoso";
+					break;
 			
-			break;
-			
-			case 2:
-				
-				var _room_alvo2 = rm_partida;
-				draw_set_color(c_white);
-				scr_fade(_room_alvo2, 60, c_black);
-				
+					case 1:
+						global.habilidades = "Gozadao";
+					break;
+				}
 			break;
 		}
+		
 	
 	break;
 }
