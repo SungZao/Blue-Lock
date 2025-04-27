@@ -21,7 +21,7 @@ switch(nome){
 	case "primeiro texto":
 		switch(pagina){
 			default:
-				obj_camera.camera = 1;
+				obj_camera.camera = obj_player;
 			break;
 			case 0:
 				scr_zoom(obj_camera.cam,683,364,0.2);
@@ -30,16 +30,16 @@ switch(nome){
 			break;
 			
 			case 2:
-				obj_camera.camera = 0;
+				obj_camera.camera = obj_bola;
 				obj_camera.x = obj_bola.x;
 				obj_camera.y = obj_bola.y;
 				//obj_camera.x = lerp(x,obj_bola.x,0.02);
 				//obj_camera.y = lerp(y,obj_bola.y,0.02);
 			break;
 			case 3:
-				obj_camera.camera = 0;
-				obj_camera.x = 1505;
-				obj_camera.y = 62;
+				obj_camera.camera = "Gol";
+				obj_camera.x = 1056;
+				obj_camera.y = 416;
 			break;
 		}
 	break;

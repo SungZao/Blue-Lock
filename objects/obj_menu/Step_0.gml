@@ -17,7 +17,7 @@ switch(escolha){
 		opcoes = ["Chute Poderoso","Gozadao","Troca-Troca","Bosta Preta", "Bosta Branca", "Puxa Penas"];
 		op_max = array_length(opcoes);
 	break;
-	case "Menu":
+	case "Sala":
 		xspr = lerp(xspr,900,0.1);
 		opcoes = ["Habilidades", "Inventario", "Play"];
 		op_max = array_length(opcoes);

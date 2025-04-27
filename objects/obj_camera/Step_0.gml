@@ -1,8 +1,14 @@
 if(global.transicao == 0){
-	if(camera == 1){
-		x = lerp(x,obj_player.x+xs,0.2);
-		y = lerp(y,obj_player.y+ys,0.2);
-	}
+		switch(camera){
+			default:
+				x = lerp(x,camera.x+xs,0.2);
+				y = lerp(y,camera.y+ys,0.2);
+			break;
+			case obj_cursor:
+				x = lerp(x,camera.x+xs,0.05);
+				y = lerp(y,camera.y+ys,0.05);
+			break;
+		}
 }
 
 

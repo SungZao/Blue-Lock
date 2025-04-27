@@ -45,6 +45,26 @@ function scr_funcoes(_1,_2,_3){
 			break;
 		}
 	break;
+	case "chutando":
+		switch(dir){
+			default:
+	
+				image_xscale = 1;
+				sprite_index = _3;
+			break;
+			case 1:
+				sprite_index = _3;
+				image_xscale = -1;
+			break;
+	
+			case 2:
+				sprite_index = _3;
+				image_xscale = 1;
+			break;
+
+		}
+	break;
+	
 	case "correndo":
 		veloc = 3;	
 		image_speed = 1;
@@ -130,8 +150,12 @@ function scr_bola(){
 
 function scr_chute(_forca){
 	if(global.posse == 1){
+		audio_play_sound(snd_chute,1,false);
+		estado = "chutando"
+		alarm[3] = 20;
 		podepegar = false
 		alarm[0] = 120
+		scr_funcoes(spr_parado,spr_correndo,spr_chutando);
 		obj_bola.direction = point_direction(x,y,mouse_x,mouse_y);
 		obj_bola.image_angle = obj_bola.direction;
 		obj_bola.speed = _forca;

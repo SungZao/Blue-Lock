@@ -2,8 +2,8 @@ global.transicao = 1;
 alarm[0] = 60;
 counter = 1;
 with obj_player{
-obj_bola.x = x;
-obj_bola.y = y - 200;
+obj_bola.x = 672;
+obj_bola.y = 416;
 estado = "andando";
 estamina = max_estamina;
 

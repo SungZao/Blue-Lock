@@ -1,4 +1,5 @@
-if(global.transicao == 0){
+if(global.tempo == 1){
+if(global.transicao == 0 and estado != "chutando"){
 
 	#region Movimentação
 	hveloc = (keyboard_check(ord("D")) - keyboard_check(ord("A")))*veloc;
@@ -51,10 +52,8 @@ y += vveloc;
 		}
 	}
 
-	if(mouse_check_button_pressed(mb_left)){
-		audio_play_sound(snd_chute,1,false);
+	if(mouse_check_button_pressed(mb_left))
 		scr_chute(forc_chute);
-	}
 		
 	if(keyboard_check_pressed(ord("Q"))){
 		switch(global.habilidades){
@@ -63,6 +62,10 @@ y += vveloc;
 				scr_shake(30);
 				audio_play_sound(snd_ChutePoderoso,2,false,10);
 				scr_chute(forc_chute*2)
+			break;
+			case "Passe Perfeito":
+				if(global.posse == 1)
+					instance_create_layer(x,y,"Instances",obj_habilidades,{hab: "Passe Perfeito"})
 			break;
 		}
 	}
@@ -81,5 +84,8 @@ y += vveloc;
 
 	
 	#endregion
+}
+}else{
+	image_speed = 0;
 }
 

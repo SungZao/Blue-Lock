@@ -11,7 +11,7 @@ switch (room){
 	
 	case rm_sala:
 		switch(escolha){
-			case "Menu":
+			case "Sala":
 			image_speed = 0.02
 				_x1 = 100;
 				_y1 = 200;
@@ -35,6 +35,9 @@ for (var i = 0; i < op_max; i++){
 	
 	if (index = i){
 		switch(escolha){
+			case "Sala":
+				draw_set_color(c_aqua);
+			break;
 			case "Menu":
 				draw_set_color(c_aqua);
 			break;

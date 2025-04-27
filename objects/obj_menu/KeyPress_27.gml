@@ -2,7 +2,7 @@ switch (room){
 	case rm_sala:
 		switch(escolha){
 			case "Habilidades":
-				escolha = "Menu";
+				escolha = "Sala";
 			break;
 		}
 	break;
