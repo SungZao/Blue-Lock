@@ -42,7 +42,6 @@ switch (room){
 					break;
 				}
 			break;
-			break;
 			
 			case "Habilidades":
 				switch(index){

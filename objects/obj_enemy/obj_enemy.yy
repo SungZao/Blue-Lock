@@ -2,9 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_enemy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bola","path":"objects/obj_bola/obj_bola.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_enemy",
@@ -32,12 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_parado_tras",
-    "path":"sprites/spr_enemy_parado_tras/spr_enemy_parado_tras.yy",
+    "name":"spr_inimigoparado",
+    "path":"sprites/spr_inimigoparado/spr_inimigoparado.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_enemy_parado_tras",
-    "path":"sprites/spr_enemy_parado_tras/spr_enemy_parado_tras.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

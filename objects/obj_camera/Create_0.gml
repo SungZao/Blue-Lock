@@ -1,5 +1,5 @@
 randomise();
-camera = "Player";
+camera = obj_player;
 cam = view_get_camera(0);
 shake = false;
 
