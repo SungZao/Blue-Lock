@@ -1,4 +1,6 @@
 draw_set_font(m5x7);
+draw_text(20,20,string(index))
+draw_text(20,40,string(escolha))
 
 var _dist = 100;
 var _gui_larg = display_get_gui_width();

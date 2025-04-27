@@ -23,3 +23,8 @@ switch(escolha){
 		op_max = array_length(opcoes);
 	break;
 }
+
+if(instance_exists(obj_particulas)){
+	part_particles_clear(obj_particulas.part_sys)
+
+}

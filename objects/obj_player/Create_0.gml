@@ -13,9 +13,6 @@ estado = "andando";
 dir = "";
 podedash = true;
 
-//Apagar Depois (é só pra testar na Sala partida)
-global.habilidades = "Passe Perfeito";
-
 
 podepegar = true;
 

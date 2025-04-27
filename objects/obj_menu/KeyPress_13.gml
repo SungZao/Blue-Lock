@@ -32,15 +32,6 @@ switch (room){
 						scr_fade(_room_alvo2, 60, c_black);
 					break;
 				}
-			case "Menu":
-				switch(index){
-					case 0:
-						room_goto(rm_tutorial)
-					break;
-					case 1:
-						game_end();
-					break;
-				}
 			break;
 			
 			case "Habilidades":

@@ -10,11 +10,12 @@ if(mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_enter)){
 		pagina ++;
 	}
 	else{
-		if(nome == "terceiro texto")
-			room_goto(rm_sala)
+		if(nome == "terceiro texto"){
+			var _room_alvo = rm_sala;
+			scr_fade(_room_alvo, 60, c_black);
+		}
 		else{
 			global.transicao = 0;
-			instance_create_layer(x,y,layer,obj_counter);
 			instance_destroy();
 		}
 	}
@@ -52,12 +53,6 @@ switch(nome){
 			default:
 				obj_camera.camera = 1;
 			break;
-			case 0:
-				obj_player.x = 1728;
-				obj_player.y = 1120;
-				if(object_exists(obj_enemy))
-					instance_create_layer(1728,600,"Instances",obj_enemy)
-			break;
 			case 2:
 				obj_camera.camera = 0;
 				obj_camera.x = obj_enemy.x;
@@ -66,6 +61,7 @@ switch(nome){
 			break;
 			case 8:
 				scr_zoom(view_get_camera(0),1366,728,0.2);
+				obj_camera.camera = obj_player;
 			break;
 		}
 	break;

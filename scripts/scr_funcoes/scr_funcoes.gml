@@ -128,17 +128,17 @@ function scr_bola(){
 				switch(dir){
 					default:
 	
-						obj_bola.x = x+10
-						obj_bola.y = y
+						obj_bola.x = x+16
+						obj_bola.y = y+10
 					break;
 					case 1:
-						obj_bola.x = x-5
-						obj_bola.y = y-20
+						obj_bola.x = x-16
+						obj_bola.y = y+10
 					break;
 	
 					case 2:
-						obj_bola.x = x-20
-						obj_bola.y = y
+						obj_bola.x = x+16
+						obj_bola.y = y+10
 					break;
 				}
 			}
