@@ -66,7 +66,7 @@ function scr_funcoes(_1,_2,_3){
 	break;
 	
 	case "correndo":
-		veloc = 3;	
+		veloc = 2;	
 		image_speed = 1;
 		if(estamina <= 0)
 			estado = "andando";
